@@ -1,0 +1,25 @@
+
+    @font-face{
+        font-family: "Zantroke";
+        src:url("Zantroke.otf")
+
+    }
+    body{
+          margin: 14px;
+          background-color:#fde8cd ;
+        }
+    hr{
+                
+         width: 5%;
+        border-style: none;
+        border-top: dotted;
+        border-color: #8ac4d0;
+        border-width: 10px
+        }
+    h1,h3
+    {
+    font-family: zantroke, Helvetica, sans-serif;
+    color: #4a47a3 
+    }    
+
+       
