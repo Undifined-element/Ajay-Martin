@@ -1,12 +1,8 @@
 
-    @font-face{
-        font-family: "Zantroke";
-        src:url("Zantroke.otf")
-
-    }
-    body{
-          margin: 14px;
+        body{
+          margin: 0px;
           background-color:#fde8cd ;
+          text-align: center;
         }
     hr{
                 
@@ -16,10 +12,23 @@
         border-color: #8ac4d0;
         border-width: 10px
         }
-    h1,h3
-    {
-    font-family: zantroke, Helvetica, sans-serif;
-    color: #4a47a3 
-    }    
+     
+     .head{
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
 
+     }  
+     img{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }      
+
+
+    
+
+       
        
