@@ -12,7 +12,10 @@
           width: 1000%t;
 
         } 
-    
+        .nav-brand{
+      font-family: 'Playfair Display', serif;
+    }
+
     hr{
                 
          width: 5%;
@@ -22,15 +25,7 @@
         border-width: 10px
         }
      
-     .head{
-        position: fixed;
-        margin: auto;
-        background-color; 
-        display: block;
-        font-family:'Playfair Display', serif ;
-        }
-
-      h1{
+           h1{
         font-size: 5rem;
         margin: 50px auto 0px auto;
         color: #e14594;
