@@ -15,6 +15,24 @@
         .nav-brand{
       font-family: 'Playfair Display', serif;
     }
+    .image-effect{
+      margin: 2rem 0;
+      padding: 0;
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+    }
+    .image-effect > img{
+      width: 100%;
+      max-width: 100%;
+    }
+    .image-effect{
+      filter: grayscale(100%);
+      transition: filter 0.5s ease-in-out;
+    }
+    .image-effect:hover{
+      filter: grayscale(0%);
+    }
 
     hr{
                 
