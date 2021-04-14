@@ -7,6 +7,10 @@
           font-family:'Playfair Display', serif;
           color: #b9d2d2;
         }
+		p{
+			font-family:'Playfair Display', serif;
+          color: #b9d2d2;
+		}
         .himg{
           height: 500%;
           width: 1000%t;
@@ -16,7 +20,7 @@
       font-family: 'Playfair Display', serif;
     }
     .image-effect{
-      margin: 2rem 0;
+      margin: 0;
       padding: 0;
       display: inline-block;
       overflow: hidden;
