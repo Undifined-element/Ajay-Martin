@@ -1,9 +1,18 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E3CCCC ;
+  
+}
 h1,h2,h3,h4,h5{
   font-family: 'Sora', sans-serif;
   color: #fdfaf6;
   font-size: 3rem;
-  
-}
+ }
 p{
    font-family: 'Cutive Mono', monospace;
    color: #3C3D40;
@@ -11,15 +20,63 @@ p{
 a{
   font-family: 'Montserrat', sans-serif;
   color: #3C3D40;
-
 }
-body{
-  background-color: #E3CCCC ;
-}
-
+/*
 #body{
   padding: 1% 10%;
 }
 #heading{
   padding: 3%;
+}*/
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  background-color:#A35554 ;
+  padding: 1.6rem ;
+}
+
+nav .inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .inner .logo{
+  text-transform: uppercase;
+  color: #E3CCCC;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+nav .inner .logo i{
+  color: #B57170;
+}
+nav .inner .button{
+  background: #E3CCCC;
+  border: none;
+  padding: 0.6rem 1rem;
+  color: #A35554;
+  font-size: 14px;
+  border-radius: 4px;
+}
+/*  heading section*/
+ .profile{
+  background: #B57170;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+  margin-top: 60px;
+}
+ .profile .left{
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+ .profile .right{
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
