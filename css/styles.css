@@ -54,7 +54,7 @@ nav .inner .logo{
 nav .inner .logo i{
   color: #B57170;
 }
-nav .inner .button{
+.nav_button{
   background: #E3CCCC;
   border: none;
   padding: 0.6rem 1rem;
@@ -62,6 +62,12 @@ nav .inner .button{
   font-size: 14px;
   border-radius: 4px;
 }
+
+/* for all section  */
+section{
+  padding: 3rem;
+}
+
 /*  heading section*/
  .profile{
   background: #B57170;
@@ -69,6 +75,9 @@ nav .inner .button{
   align-items: center;
   padding: 3rem;
   margin-top: 60px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 13% 87%, 9.5% 100%, 6% 86%, 0 86%);
+  padding-bottom: 3rem;
+
 }
  .profile .left{
   flex: 2;
@@ -77,6 +86,173 @@ nav .inner .button{
 }
  .profile .right{
   flex: 1;
-  display: flex;
+ }
+ .profile .left h2{
+   color: #E3CCCC;
+   font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 1rem;
+ }
+ .profile .left p{
+   color: #fdfaf6;
+   font-size: 14px;
+ }
+ .profile .left .cd-headline .loading-bar .cd-words-wrapper ::after {
+   background: linear-gradient(to right,#fdfaf6,#E3CCCC);
+ }
+ .profile .left p b {
+   padding-bottom: 1rem;
+   font-weight: 400;
+ }
+ .profile .left img{
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+   object-fit: cover;
+ }
+ .avatar_block{
+   position: relative;
+   margin-right: 2rem;
+ }
+  .avatar_block span{
+   position: absolute;
+   right: 4px;
+   bottom: 4px;
+   background: #E3CCCC;
+   width: 32px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   box-shadow: 0px 0px 20px 0px rgba(32, 41, 54, 0.05);
+   cursor: pointer;
+ }
+  ul.contact{
+   list-style-type:none;
+   margin-bottom: 1.6rem;
+ }
+  ul.contact li{
+   color:#E3CCCC;
+   margin-bottom: .7rem;
+   font-size: 14px;
+ }
+ ul.contact li i{
+   font-size: 18px;
+   margin-right: 0.3rem;
+ }
+ ul.socials{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+ }
+ ul.socials li{
+   margin-right: 0.8rem;
+ }
+ ul.socials li a{
+   display: inline-block;
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   color: white;
+   line-height: 36px;
+   text-align: center;
+ }
+ ul.socials li:nth-child(1) a{
+   background: blue;
+ }
+ ul.socials li:nth-child(2) a{
+  background: pink;
+}
+
+ul.socials li:nth-child(3) a{
+  background: cyan;
+}
+/*-About amd below-*/
+main{
+  background: #D4ADAC;
+}
+.section_heading{
+  font-size: 16px;
+  font-weight: 600;
+  color: #A35554;
+  margin-bottom: 3rem;
+  text-shadow:  0 0 2px rgba(181, 113, 112, 1);
+}
+.section_heading::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.section_heading:hover:after{
+  transform: scale(1);
+  transform-origin: bottom left;
+
+}
+.content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16rem;
+}
+.content h2{
+  color: #B57170;
+  font-size: 18px;
+  line-height: 22px ;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.content p{
+  color: grey;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.1px;
+  margin-bottom: 1rem;
+}
+
+.cv_button{
+  background: rgba(181, 113, 112, 1);
+  color: #D4ADAC;
+  padding: 4px 8px;
+  font-size:12px;
+  border: 10px;
+  line-height: 24px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ .me_img{
+  width: 128px;
+   height: 128px;
+   border-radius: 50%;
+   object-fit: cover ;
+   align-items: left;
+} 
+section.skills.content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
 }
+section.skills.content.left{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+section.skills.content.left.heading{
+  margin-bottom: 2rem;
+  
+}
+section.skills.content.left.heading h5{
+  font-size: 16px;
+  margin-top: 0.5rem;
+  color: #A35554;
+}
+
+
+
