@@ -120,11 +120,12 @@ section{
    bottom: 4px;
    background: #E3CCCC;
    width: 32px;
+   height: 32px;
    border-radius: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
-   color: white;
+   color: #A35554;
    box-shadow: 0px 0px 20px 0px rgba(32, 41, 54, 0.05);
    cursor: pointer;
  }
@@ -151,22 +152,22 @@ section{
  }
  ul.socials li a{
    display: inline-block;
-   width: 36px;
-   height: 36px;
+   width: 34px;
+   height: 34px;
    border-radius: 50%;
    color: white;
    line-height: 36px;
    text-align: center;
  }
  ul.socials li:nth-child(1) a{
-   background: blue;
+   background: #4267B2;
  }
  ul.socials li:nth-child(2) a{
-  background: pink;
+  background: #833AB4	;
 }
 
 ul.socials li:nth-child(3) a{
-  background: cyan;
+  background: #0077b5;
 }
 /*-About amd below-*/
 main{
@@ -235,24 +236,93 @@ main{
    object-fit: cover ;
    align-items: left;
 } 
-section.skills.content{
+.scontent{
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
 }
-section.skills.content.left{
+.sleft{
   display: grid;
   grid-template-columns: 1fr 1fr;
   }
-section.skills.content.left.heading{
+.sl_heading{
   margin-bottom: 2rem;
   
 }
-section.skills.content.left.heading h5{
+.sl_heading h5{
   font-size: 16px;
   margin-top: 0.5rem;
   color: #A35554;
 }
+.sl_heading i{
+  color: #A35554;
+  font-size: 50px;
+}
+.sleft p{
+  font-size: 14px;
+  color: #B57170;
+  line-height: 1.7;
+}
+.sleft p.center{
+color: #3C3D40;
+}
+.item{
+  margin-bottom: 2.6rem;
+  margin-left: 15px;
+  position: relative;
+}
+.timeline_wrapper{
+  border-left: 2px dotted #A35554;
+}
+.item::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #A35554;
+  border-radius: 50%;
+  margin-left: -21px ;
+}
+.skill_box{
+  margin-bottom:  4rem;
+}
+.skill_box h1{
+  color: #A35554;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.progress_wrap{
+  background: #D4ADAC;
+  min-height: 6px;
+  width: 100%;
+  border: 2px solid #A35554;
+  box-shadow: 0px 0px 1px 0.25px #B57170;
+  border-radius: 10px;
+  border: 2px solid #B57177;
+}
+.progress_bar{
+  display: block;
+  height: 100%;
+  background:#A35554;
+  width: 0;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+.tooltip{
+  position: absolute;
+  right: -15px;
+  top: -30px;
+  margin-bottom: 10px;
+  color: #A35554;
+  font-size: 16px;
+  text-transform: uppercase;
+
+}
+
 
 
 
